@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-     _progress = [[LZProgressView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
+     _progress = [[LZProgressView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];//frame是方形
     [self.view addSubview:_progress];
     _progress.center = self.view.center;
 //    progress.progress = 40;
